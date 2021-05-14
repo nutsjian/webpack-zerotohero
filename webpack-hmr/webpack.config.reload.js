@@ -1,18 +1,8 @@
 module.exports = {
   mode: "development",
-  entry: "./src/index0.js",
-  watch: true,
+  entry: "./src/index_reload.js",
   devServer: {
     contentBase: "./dist",
-    open: true,
-    hot: true,
-  },
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"]
-      }
-    ]
+    open: true
   }
 }
