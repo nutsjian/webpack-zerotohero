@@ -14,7 +14,8 @@
     "babel-loader": "^8.2.2",
     "react-loader": "^2.4.7",
     "webpack": "^5.37.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "moment": "^2.29.1",

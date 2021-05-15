@@ -1,0 +1,12 @@
+{
+  "name": "webpack-compile-lifecycle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nutsjian",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.0"
+  }
+}
