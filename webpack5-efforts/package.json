@@ -1,0 +1,10 @@
+{
+  "name": "webpack5-efforts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nutsjian",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^4.1.1"
+  }
+}

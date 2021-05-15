@@ -4,9 +4,14 @@
   "main": "index.js",
   "author": "nutsjian",
   "license": "MIT",
+  "scripts": {
+    "build:plugin": "webpack --config webpack.config.sampleplugin.js",
+    "build:all": "webpack --config webpack.config.all.js"
+  },
   "devDependencies": {
     "css-loader": "^5.2.4",
     "style-loader": "^2.0.0",
-    "webpack": "^5.37.0"
+    "webpack": "^5.37.0",
+    "webpack-cli": "^3.3.12"
   }
 }

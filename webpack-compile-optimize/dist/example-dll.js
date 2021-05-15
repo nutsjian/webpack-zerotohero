@@ -1,0 +1,1 @@
+(()=>{var r={89:(r,e,t)=>{r.exports=t(897)(294)},167:(r,e,t)=>{r.exports=t(897)(935)},897:r=>{"use strict";r.exports=vendor_dll}},e={};function t(o){var s=e[o];if(void 0!==s)return s.exports;var n=e[o]={exports:{}};return r[o](n,n.exports,t),n.exports}(()=>{"use strict";var r=t(89),e=t(167);const o=r.createElement("div",{},"Hello World");e.render(o,document.body)})()})();

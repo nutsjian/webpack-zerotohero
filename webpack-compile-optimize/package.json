@@ -1,0 +1,42 @@
+{
+  "name": "webpack-compile-optimize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nutsjian",
+  "license": "MIT",
+  "scripts": {
+    "build:lodash": "webpack --config webpack.lodash.config.js",
+    "build:lodashall": "webpack --config webpack.lodash.all.config.js",
+    "build:ignore": "webpack --config webpack.ignore.config.js",
+    "build:dll": "webpack --config webpack.dll.config.js",
+    "build:dllref": "webpack --config webpack.dllref.config.js",
+    "build:externals": "webpack --config webpack.externals.config.js",
+    "build:inexclude": "webpack --config webpack.inexclude.config.js",
+    "build:noparse": "webpack --config webpack.noparse.config.js",
+    "build:ts": "webpack --config webpack.ts.config.js",
+    "build:resolve": "webpack --config webpack.resolve.config.js",
+    "build:thread": "webpack --config webpack.thread.config.js",
+    "build:parallel": "parallel-webpack --config webpack.parallel.config.js"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^7.1.2",
+    "css-loader": "^5.2.4",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.0",
+    "webpack-bundle-analyzer": "^4.4.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "antd": "^4.15.5",
+    "faker": "^5.5.3",
+    "jquery": "^3.6.0",
+    "less-loader": "^9.0.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
