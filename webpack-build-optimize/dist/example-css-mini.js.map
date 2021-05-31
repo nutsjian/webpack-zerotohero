@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-build-optimize/./src/example-css.js"],"names":[],"mappings":";;;AAAoB","file":"example-css-mini.js","sourcesContent":["import './style.css'\nimport './style2.css'"],"sourceRoot":""}
